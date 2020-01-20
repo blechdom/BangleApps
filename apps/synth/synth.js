@@ -1,6 +1,7 @@
 Bangle.on('gesture',(xyz)=>{
-  E.showMessage("gesture is " + xyz);
-  Bangle.buzz(1000, 1);
+  E.showMessage("gesture detected");
+  console.log("gesture ", xyz);
+  Bangle.beep(300, 1000);
   setTimeout(()=>g.clear(), 1000);
 });
 
@@ -11,8 +12,15 @@ Bangle.on('faceUp',(up)=>{
 });
 
 Bangle.on('accel',(xyz)=>{ 
-  E.showMesage("accel is " + xyz);
-  Bangle.beep(200, 400);
+  E.showMesage("accel detected");
+  console.log("accel ", xyz);
+  Bangle.beep(200, 4000);
   setTimeout(()=>g.clear(), 200);
 });
 
+Bangle.on('touch', function(button) {
+  E.showMesage("touch detected");
+  console.log("touch ", button);
+  Bangle.beep(500, 800);
+  setTimeout(()=>g.clear(), 500);
+});
