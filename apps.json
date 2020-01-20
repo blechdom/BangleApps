@@ -276,6 +276,18 @@
       {"name":"*stetho","url":"stetho-icon.js","evaluate":true}
     ]
   },
+  { "id": "synth",
+    "name": "Synthesizer",
+    "icon": "synth.png",
+    "version":"0.01",
+    "description": "Bangle Synth",
+    "tags": "health",
+    "storage": [
+      {"name":"+synth","url":"synth.json"},
+      {"name":"-synth","url":"synth.js"},
+      {"name":"*synth","url":"synth-icon.js","evaluate":true}
+    ]
+  },
   { "id": "swatch",
     "name": "Stopwatch",
     "icon": "stopwatch.png",

@@ -1,0 +1,5 @@
+{
+  "name":"Synthesizer","type":"app",
+  "icon":"*synth",
+  "src":"-synth"
+}
