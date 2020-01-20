@@ -279,7 +279,7 @@
   { "id": "synth",
     "name": "Synthesizer",
     "icon": "synth.png",
-    "version":"0.011",
+    "version":"0.012",
     "description": "Bangle Synth",
     "tags": "health",
     "storage": [
